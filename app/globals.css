@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+.scrollable::-webkit-scrollbar {
+  width: 7px;
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+.scrollable::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+.scrollablemob {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
